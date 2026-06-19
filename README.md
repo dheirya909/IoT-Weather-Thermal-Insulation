@@ -1,148 +1,59 @@
-# The ThermoBit
+<div align="center">
 
-```text
+```diff
 ████████╗██╗  ██╗███████╗██████╗ ███╗   ███╗ ██████╗ ██████╗ ██╗████████╗
 ╚══██╔══╝██║  ██║██╔════╝██╔══██╗████╗ ████║██╔═══██╗██╔══██╗██║╚══██╔══╝
    ██║   ███████║█████╗  ██████╔╝██╔████╔██║██║   ██║██████╔╝██║   ██║
    ██║   ██╔══██║██╔══╝  ██╔══██╗██║╚██╔╝██║██║   ██║██╔══██╗██║   ██║
    ██║   ██║  ██║███████╗██║  ██║██║ ╚═╝ ██║╚██████╔╝██████╔╝██║   ██║
    ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝ ╚═════╝ ╚═════╝ ╚═╝   ╚═╝
-
-          THERMAL INSULATION ANALYSIS PLATFORM
 ```
 
-## Overview
+# The ThermoBit
 
-The ThermoBit is an IoT-powered thermal insulation investigation system developed to scientifically evaluate and compare the effectiveness of different insulating materials.
+### IoT-Based Thermal Insulation Analysis Platform
 
-The project uses a custom-designed PCB featuring an ESP32-C3 Mini microcontroller and a DHT11 temperature and humidity sensor to collect real-time environmental data. By monitoring temperature changes within test chambers insulated using different materials, The ThermoBit enables accurate analysis of heat transfer and insulation performance.
+![ESP32](https://img.shields.io/badge/ESP32--C3-Microcontroller-blue?style=for-the-badge)
+![DHT11](https://img.shields.io/badge/DHT11-Temperature%20%26%20Humidity-green?style=for-the-badge)
+![IoT](https://img.shields.io/badge/Category-IoT-orange?style=for-the-badge)
+![Science](https://img.shields.io/badge/Field-Thermal%20Science-red?style=for-the-badge)
+
+</div>
 
 ---
 
-## Research Question
+## Description
 
-**Which thermal insulation material is most effective at reducing heat transfer and maintaining a stable internal temperature under changing environmental conditions?**
-
----
-
-## Objectives
-
-* Measure temperature and humidity in real time.
-* Compare the thermal insulation performance of different materials.
-* Investigate heat transfer through various insulating mediums.
-* Record and analyze environmental data using IoT technology.
-* Apply scientific methods to evaluate insulation effectiveness.
+The ThermoBit is an IoT-powered thermal insulation investigation system designed to compare the effectiveness of different insulating materials. Using real-time temperature and humidity measurements, it helps analyze how well materials resist heat transfer and maintain stable internal conditions.
 
 ---
 
 ## Hardware
 
-| Component        | Description                                            |
-| ---------------- | ------------------------------------------------------ |
-| ESP32-C3 Mini    | Main microcontroller and wireless communication module |
-| DHT11 Sensor     | Temperature and humidity sensing                       |
-| Custom PCB       | Sensor integration and power management                |
-| USB Power Supply | System power source                                    |
+| Component        | Purpose                        |
+| ---------------- | ------------------------------ |
+| ESP32-C3 Mini    | Main Microcontroller           |
+| DHT11 Sensor     | Temperature & Humidity Sensing |
+| Custom PCB       | Circuit Integration            |
+| USB Power Supply | System Power                   |
 
 ---
 
-## Software Features
+## Connections
 
-* Real-time temperature monitoring
-* Real-time humidity monitoring
-* Wireless data transmission
-* Live graphical visualization
-* Experimental data logging
-* Comparative insulation analysis
-* User-friendly dashboard interface
-
----
-
-## Methodology
-
-1. Construct identical test chambers using different insulation materials.
-2. Install a temperature and humidity sensor inside each chamber.
-3. Expose all chambers to the same environmental conditions.
-4. Continuously collect sensor readings using The ThermoBit platform.
-5. Record temperature changes over a fixed period.
-6. Compare the rate of temperature increase or decrease between materials.
-7. Determine which material provides the greatest resistance to heat transfer.
+| Component Pin | Connected To         |
+| ------------- | -------------------- |
+| DHT11 VCC     | ESP32-C3 5V          |
+| DHT11 GND     | ESP32-C3 GND         |
+| DHT11 DATA    | ESP32-C3 GPIO4       |
+| LED 1         | ESP32-C3 GPIO6       |
+| LED 2         | ESP32-C3 GPIO8       |
+| USB Power     | ESP32-C3 Power Input |
 
 ---
 
-## Materials Investigated
+<div align="center">
 
-Examples of insulation materials that can be tested include:
+### Measure Heat • Compare Materials • Understand Insulation
 
-* wool
-* Cardboard
-* Cotton
-* plastic
-
----
-
-## Scientific Principle
-
-Heat naturally flows from regions of higher temperature to regions of lower temperature.
-
-Insulating materials slow down this transfer of thermal energy by reducing conduction, convection, and radiation. By measuring temperature changes inside controlled environments, The ThermoBit quantifies the effectiveness of different insulation materials.
-
----
-
-## Applications
-
-* Physics Investigations
-* Thermal Engineering Studies
-* Building Insulation Research
-* Environmental Science Projects
-* IoT-Based Data Acquisition
-* STEM Education
-
----
-
-## Expected Outcomes
-
-The project aims to:
-
-* Identify the most effective insulating material among those tested.
-* Quantify heat retention capabilities.
-* Generate experimental data for scientific analysis.
-* Demonstrate practical applications of IoT in thermal science.
-
----
-
-## Future Improvements
-
-* Higher-precision environmental sensors
-* Cloud-based data storage
-* Multi-sensor monitoring networks
-* Mobile application support
-* Machine learning-based performance prediction
-* Automated report generation
-
----
-
-## Technical Specifications
-
-| Parameter        | Value                                 |
-| ---------------- | ------------------------------------- |
-| Controller       | ESP32-C3 Mini                         |
-| Sensor           | DHT11                                 |
-| Connectivity     | Wi-Fi                                 |
-| Data Type        | Temperature & Humidity                |
-| Platform         | Custom PCB + Custom Software          |
-| Project Category | IoT / Physics / Environmental Science |
-
----
-
-## Project Information
-
-**Project Name:** The ThermoBit
-
-**Type:** IoT-Based Thermal Insulation Investigation System
-
-**Purpose:** Comparative analysis of thermal insulation materials using real-time environmental sensing and data collection.
-
----
-
-*"Measuring heat. Comparing materials. Understanding insulation."*
+</div>
