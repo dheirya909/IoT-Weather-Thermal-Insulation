@@ -74,9 +74,10 @@ The project uses a custom-designed PCB featuring an ESP32-C3 Mini microcontrolle
 
 Examples of insulation materials that can be tested include:
 
-* Thermocol (Expanded Polystyrene)
+* wool
 * Cardboard
 * Cotton
+* plastic
 
 ---
 
